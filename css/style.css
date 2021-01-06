@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    color: black;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 13rem;
+    font-weight: 20rem;
+    color: white;
+    padding: 5.5rem 7rem;
+    border: 0.4rem solid white;
+    cursor: pointer;
+}
+
+.neon {
+    text-shadow: -0.2rem -0.2rem 1rem red,
+    0.2rem 0.2rem 2rem rgb(255, 17, 0),
+    0.2rem 0.2rem 4rem rgb(255, 17, 0),
+    0.2rem 0.2rem 6rem rgb(255, 17, 0),
+    0.2rem 0.2rem 8rem rgb(255, 17, 0),
+    0.2rem 0.2rem 10rem rgb(255, 17, 0);
+    box-shadow: 0 0 0.5rem red,
+    inset 0 0 0.5rem red,
+    0 0 2rem rgb(0, 136, 255),
+    inset 0 0 2rem rgb(0, 136, 255),
+    0 0 4rem rgb(0, 136, 255),
+    inset 0 0 4rem rgb(0, 136, 255);
+}
